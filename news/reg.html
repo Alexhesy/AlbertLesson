@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	   <link rel="stylesheet" href="css/style.css" type="text/css"" />
+	<title>Регистрация</title>
+</head>
+<body>
+
+<ul>
+    <li><a href="index.html">Домой</a></li>
+	<li><a href="news.html">Статьи</a></li>
+	<li><a href="catalog.html">Каталог</a></li>
+	<li><a href="galary.html">Галерея</a></li>
+	<li><a href="reg.html">Регистрация</a></li>
+	<li><a href="contacts.html">Контакты</a></li>
+</ul>
+  <center>
+   <h1>Регистрация</h1>
+  </center>
+  
+<form>
+		
+			<legend>Фамилия</legend>
+			<input name="last Name" tipe="text" size=20/>
+			
+			<br>
+			<br>
+			<legend>Имя</legend>
+			<input name="first Name" tipe="text" size=20/>
+			<br>
+			<br>
+			
+			<legend>Отчество</legend>
+			<input name="middle Name" tipe="text" size=20/>
+			<br>
+			<br>
+			<br>
+			<br>
+			
+
+	
+	
+	<h3>Добавьте свою фотографию</h3>
+	<img id="fotka" src="images/photo.png" alt="Загрузите Вашу фотографию" />
+
+	
+	<form enctype="multipart/form-data" method="post">
+        <p><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+           <input type="submit" value="Отправить"></p>
+		   
+    <br>
+    <br>
+		
+   
+   <p>Email:<br> <input type="email" name="login"></p>
+   <br>
+   <p>Пароль: <br><input type="password" name="pass"></p>
+   
+ 
+    <br>
+    
+	<p>Адрес сайта</p>
+  
+        <input name="site" tipe="text" value="http://" size=40/>
+     <br>
+	 <br>
+<legend>Выбирите пол</legend> 
+    <p class=“is_border”><input type="radio" name="gender" value="M"/>Мужской
+	<p><input type="radio" name="gender" value="Ж"/>Женский
+	</p>  
+	 <br>
+	 <br>
+
+	
+	
+   <p class=“is_border”>Выберите дату рождения: <input type="date" name="birthday">
+   <input type="submit" value="Отправить"></p>
+ 
+	 <br>
+	 <br>
+	<legend>Блюда какой кухни Вы предпочитаете:</legend>
+<p><input type="checkbox" name="jption1" value="a1"/>Русской<br>	
+   <input type="checkbox" name="jption2" value="a2"/>Европейской<br>
+   <input type="checkbox" name="jption3" value="a3"/>Тайской<br>	
+   <input type="checkbox" name="jption4" value="a4"/>Японскойой<br>
+   <input type="checkbox" name="jption8" value="a8"/>Мексиканской<br>
+   <input type="checkbox" name="jption6" value="a6"/>Кабардино-Балкарской</p>
+   
+   </p>
+   <br>
+   <legend>О себе:</legend>
+   <textarea name="aboutself" id="" cols="70" rows="8"></textarea>
+   <br>
+   <br>
+   <input type="button" value="Зарегистрироваться"/>
+   <input type="reset" value="Очистить форму"/>
+   <br>
+   <br>
+   </form>  
+   <p>
+&copy
+</p>
+
+
+</body>
+</html>
+   
+   
+   
+   
+   

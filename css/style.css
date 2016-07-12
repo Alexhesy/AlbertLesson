@@ -1,0 +1,229 @@
+body {
+ background-color: #158de6;/* Фон всего документа */
+ font-family: sans-serif;
+ }
+h1 {
+
+ font-style:italic;
+ font: bold 44px;
+ color: #362df0;
+ border-bottom: 2px solid #8bede3;
+ }
+h2 {
+ color: #d00935;
+ font-size: 1.4em;
+ }
+ h2, p {
+ margin-left: `100px;
+ } 
+ img {
+  height: 116px;
+  width: 116px;
+}
+img {
+  background:30px #0707b8;
+  border: 3px solid #f71a51;
+  float: right;
+  margin: 1px 5px;
+  padding: 1px;
+  float: left;
+}
+#first {
+color: red;
+}
+#raz {
+  color: #b60c43;
+}
+
+#fotka {
+height: 36px;
+ width: 36px;	
+}
+#mesto {
+	padding-top: 100px;
+height: 360px;
+ width: 560px;
+ float: none;
+ }
+body { 
+background-image: url(../images/snow-mount_1001x626.jpg);
+background-position: right top;
+background-repeat: no-repeat;
+	background-size:80%	
+	
+}
+#zagolovok1 {
+	color:#8f0a35 
+}
+#magaz{
+	color:#620624
+	
+}
+#zagolovok2 {
+	color:#8f0a35 
+}
+#kartinka2  {
+	background-image: url(../images/images_1298x809.jpg);
+	background-position: top;
+	background-repeat: no-repeat;
+}
+#buk{
+	color:#eeffff;
+	first-letter-spacing;
+}	
+#body2 { 
+background-image: url(../images/images_1298x809.jpg);
+background-position: right top;
+background-repeat: no-repeat;
+	background-size:100%	
+}
+#kartinka3  {
+	background-image: url(../images/wpappers.jpg);
+	background-position: top right;
+	background-repeat: no-repeat;
+	}
+#viber_file	{
+	color:#eeffff
+}
+#spisok {
+	
+    list-style-image: url(../images/kniga_40x34.jpg);
+    list-style-position: inside;
+    
+}
+#gorizont1 {
+	display: inline-block;
+	text-decoration: none
+	color: #eeffff
+	
+    margin: 0 10px;
+}
+#gorizont2 {
+color:#eeffff	
+}
+.navigation ul {
+  font: bold 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#v_kataloge {
+	color: #dbed36
+	text-decoration: none;
+}
+#staty {
+	color:#eeffff
+	
+}
+.raz5: {
+	first-letter;
+}
+#wremya {
+	color:#1CB1B1;
+	background-size:80%;
+}
+.tagli{
+	color: tomato;
+}
+#novosib{
+	background-color: #10076A;
+	background-image: url(../images/Novosibirsk2.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size:100%	
+}
+
+
+
+
+
+
+.box4 {
+margin-bottom: 5px;
+background-color: #ccc;
+color: #333;
+padding: 10px;
+text-align: center;
+width: 200px;
+height:100px;
+
+text-indent: 0px;
+border: 1px solid #247BD4;
+-moz-transition: all 3s ease-out;
+-o-transition: all 3s ease-out;
+-webkit-transition: all 3s ease-out;
+cursor: pointer;}
+
+#box4:hover {
+background-color: #97CE68;
+color: #000;
+-webkit-transform: scale(1.3);
+-moz-transform: scale(1.3);
+-o-transform: scale(1.3);
+}
+.logo {
+
+	width: 44px;
+	padding-top: 330px;
+	border:none;
+  -webkit-animation: logo 3s linear infinite;
+  animation: logo 3s linear infinite;
+
+
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #EBF54E;
+  }
+  100% {
+    background-color: #EBF54E;
+  }
+}
+
+#inStar {
+	margin: ;
+	list-style-position: button;
+}
+.element {
+  height: 15px;
+  width: 15px;
+  margin: 0 auto;
+  background-color: #D6F026;
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  110% {
+    transform: scale(.5);
+    background-color: #D3E320;
+    border-radius: 50%;
+  }
+  10% {
+    background-color: orange;
+  }
+  40% {
+    transform: scale(1.5);
+    background-color: yellow;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu {
+	margin-left: 15px;
+}
